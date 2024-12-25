@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "inconspicuous",
+	"version": "${version}",
+	"name": "Inconspicuous",
+	"description": "This is a mod made by WarMedic",
+	"authors": [
+		"WarMedic"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/inconspicuous/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.warmedic.inconspicuous.Inconspicuous"
+		],
+		"client": [
+			"com.warmedic.inconspicuous.InconspicuousClient"
+		],
+		"fabric-datagen": [
+			"com.warmedic.inconspicuous.InconspicuousDataGenerator"
+		]
+	},
+	"mixins": [
+		"inconspicuous.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
