@@ -1,0 +1,8 @@
+{
+  "item.inconspicuous.smoke_bomb": "Smoke bomb",
+
+  "block.inconspicuous.test_block": "A testing block",
+  "block.inconspicuous.test_block2": "Another testing block",
+
+  "itemgroup.smoke_bomb": "Smoke Bomb group"
+}

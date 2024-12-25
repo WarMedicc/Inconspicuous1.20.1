@@ -1,5 +1,8 @@
 package com.warmedic.inconspicuous;
 
+import com.warmedic.inconspicuous.Item.ModItemGroups;
+import com.warmedic.inconspicuous.Item.ModItems;
+import com.warmedic.inconspicuous.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,8 @@ public class Inconspicuous implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
